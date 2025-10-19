@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GrouuoAqZkc=",
+  "dgSpecHash": "GNQL6YgsUUg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\QUYEN NGO\\Downloads\\New folder (5)\\quanlynhansu\\HRMANAGMENT2\\HRMANAGMENT2\\HRMANAGMENT2.csproj",
+  "projectFilePath": "E:\\JOB\\phuonganh\\quanlynhansu\\HRMANAGMENT2\\HRMANAGMENT2\\HRMANAGMENT2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\QUYEN NGO\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\QUYEN NGO\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

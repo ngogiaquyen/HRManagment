@@ -3,60 +3,105 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto" MinHeight="60"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
         <!-- Top Controls -->
-        <WrapPanel Grid.Row="0" Margin="20" Background="#F8F9FA">
-            <Label Content="Tìm kiếm:" VerticalAlignment="Center" Margin="5" FontWeight="Bold"/>
-            <TextBox x:Name="TxtSearchContracts" Width="250" Margin="5" TextChanged="TxtSearchContracts_TextChanged"/>
-            <Button Content="🔍 Tìm" Click="BtnSearchContracts_Click" Margin="5" Padding="12,8" Background="#007BFF" Foreground="White" BorderThickness="0">
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="30,10,20,10" Background="#F8F9FA">
+            <Label Content="Tìm kiếm:" VerticalAlignment="Center" Margin="5" FontWeight="Bold" Foreground="#495057"/>
+            <TextBox x:Name="TxtSearchContracts" Width="250" Margin="5" TextChanged="TxtSearchContracts_TextChanged" VerticalContentAlignment="Center"/>
+            <Button Content="🔍 Tìm" Click="BtnSearchContracts_Click" Margin="5" Padding="12,8" Width="90" Background="#007BFF" Foreground="White" BorderThickness="0">
                 <Button.Template>
-                    <ControlTemplate>
+                    <ControlTemplate TargetType="Button">
                         <Border Background="{TemplateBinding Background}" CornerRadius="6">
                             <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Border>
                     </ControlTemplate>
                 </Button.Template>
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#0056b3"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
             </Button>
-            <Button Content="➕ Thêm" Click="BtnAddContract_Click" Margin="5" Padding="12,8" Background="#28A745" Foreground="White" BorderThickness="0">
+            <Button Content="➕ Thêm" Click="BtnAddContract_Click" Margin="5" Padding="12,8" Width="90" Background="#28A745" Foreground="White" BorderThickness="0">
                 <Button.Template>
-                    <ControlTemplate>
+                    <ControlTemplate TargetType="Button">
                         <Border Background="{TemplateBinding Background}" CornerRadius="6">
                             <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Border>
                     </ControlTemplate>
                 </Button.Template>
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#218838"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
             </Button>
-            <Button Content="✏️ Sửa" Click="BtnUpdateContract_Click" Margin="5" Padding="12,8" Background="#FFC107" Foreground="Black" BorderThickness="0">
+            <Button Content="✏️ Sửa" Click="BtnUpdateContract_Click" Margin="5" Padding="12,8" Width="90" Background="#FFC107" Foreground="Black" BorderThickness="0">
                 <Button.Template>
-                    <ControlTemplate>
+                    <ControlTemplate TargetType="Button">
                         <Border Background="{TemplateBinding Background}" CornerRadius="6">
                             <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Border>
                     </ControlTemplate>
                 </Button.Template>
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#e0a800"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
             </Button>
-            <Button Content="🗑️ Xóa" Click="BtnDeleteContract_Click" Margin="5" Padding="12,8" Background="#DC3545" Foreground="White" BorderThickness="0">
+            <Button Content="🗑️ Xóa" Click="BtnDeleteContract_Click" Margin="5" Padding="12,8" Width="90" Background="#DC3545" Foreground="White" BorderThickness="0">
                 <Button.Template>
-                    <ControlTemplate>
+                    <ControlTemplate TargetType="Button">
                         <Border Background="{TemplateBinding Background}" CornerRadius="6">
                             <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Border>
                     </ControlTemplate>
                 </Button.Template>
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#c82333"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
             </Button>
-            <Button Content="📊 Xuất Excel" Click="BtnExportContracts_Click" Margin="5" Padding="12,8" Background="#6F42C1" Foreground="White" BorderThickness="0">
+            <Button Content="📊 Xuất Excel" Click="BtnExportContracts_Click" Margin="5" Padding="12,8" Width="120" Background="#6F42C1" Foreground="White" BorderThickness="0">
                 <Button.Template>
-                    <ControlTemplate>
+                    <ControlTemplate TargetType="Button">
                         <Border Background="{TemplateBinding Background}" CornerRadius="6">
                             <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Border>
                     </ControlTemplate>
                 </Button.Template>
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#5a32a3"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
             </Button>
-        </WrapPanel>
+        </StackPanel>
 
         <!-- DataGrid -->
         <ScrollViewer Grid.Row="1" Margin="20" VerticalScrollBarVisibility="Auto">

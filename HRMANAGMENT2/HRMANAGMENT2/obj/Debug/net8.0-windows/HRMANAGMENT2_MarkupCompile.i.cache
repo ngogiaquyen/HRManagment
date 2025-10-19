@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\QUYEN NGO\Downloads\New folder (5)\quanlynhansu\HRMANAGMENT2\HRMANAGMENT2\obj\Debug\net8.0-windows\
+E:\JOB\phuonganh\quanlynhansu\HRMANAGMENT2\HRMANAGMENT2\obj\Debug\net8.0-windows\
 HRMANAGMENT2
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Users\QUYEN NGO\Downloads\New folder (5)\quanlynhansu\HRMANAGMENT2\HRMANAGMENT2\App.xaml
-15-719556679
+E:\JOB\phuonganh\quanlynhansu\HRMANAGMENT2\HRMANAGMENT2\App.xaml
+16-532236739
 
-35848525513
+36-1547563911
 231-1452191577
-Dialogs\AttendanceDialog.xaml;Dialogs\ContractDialog.xaml;Dialogs\DisciplineDialog.xaml;Dialogs\EmployeeDialog.xaml;Dialogs\RecruitmentDialog.xaml;Dialogs\SalaryDialog.xaml;Dialogs\TrainingDialog.xaml;MainWindow.xaml;Views\AttendancePage.xaml;Views\ContractPage.xaml;Views\DisciplinePage.xaml;Views\EmployeePage.xaml;Views\RecruitmentPage.xaml;Views\SalaryPage.xaml;Views\TrainingPage.xaml;
+Dialogs\AttendanceDialog.xaml;Dialogs\ContractDialog.xaml;Dialogs\DisciplineDialog.xaml;Dialogs\EmployeeDialog.xaml;Dialogs\RecruitmentDialog.xaml;Dialogs\SalaryDialog.xaml;Dialogs\TrainingDialog.xaml;MainWindow.xaml;Views\AttendancePage.xaml;Views\ContractPage.xaml;Views\DisciplinePage.xaml;Views\EmployeePage.xaml;Views\LoginWindow.xaml;Views\RecruitmentPage.xaml;Views\SalaryPage.xaml;Views\TrainingPage.xaml;
 
 False
 

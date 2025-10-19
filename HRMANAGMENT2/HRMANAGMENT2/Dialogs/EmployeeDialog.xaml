@@ -20,7 +20,7 @@
                 </ComboBox.Items>
             </ComboBox>
             <Label Content="Quốc tịch:"/>
-            <TextBox x:Name="TxtNationality"/>
+            <TextBox x:Name="TxtNationality" Text="Việt Nam"/>
             <Label Content="CCCD:"/>
             <TextBox x:Name="TxtCCCD"/>
             <Label Content="Ngày cấp CCCD:"/>
@@ -36,7 +36,14 @@
             <Label Content="Email:"/>
             <TextBox x:Name="TxtEmail"/>
             <Label Content="Tình trạng hôn nhân:"/>
-            <TextBox x:Name="TxtMaritalStatus"/>
+            <ComboBox x:Name="TxtMaritalStatus" IsEditable="True">
+                <ComboBox.Items>
+                    <sys:String>Độc thân</sys:String>
+                    <sys:String>Đã kết hôn</sys:String>
+                    <sys:String>Ly hôn</sys:String>
+                    <sys:String>Góa</sys:String>
+                </ComboBox.Items>
+            </ComboBox>
             <Label Content="Số người phụ thuộc:"/>
             <TextBox x:Name="TxtDependents"/>
             <Label Content="BHXH:"/>
@@ -46,13 +53,42 @@
             <Label Content="Mô tả công việc:"/>
             <TextBox x:Name="TxtJobDescription" AcceptsReturn="True" Height="60"/>
             <Label Content="Chức vụ:"/>
-            <TextBox x:Name="TxtPosition"/>
+            <ComboBox x:Name="TxtPosition" IsEditable="True">
+                <ComboBox.Items>
+                    <sys:String>Nhân viên</sys:String>
+                    <sys:String>Trưởng nhóm</sys:String>
+                    <sys:String>Quản lý</sys:String>
+                    <sys:String>Giám đốc</sys:String>
+                </ComboBox.Items>
+            </ComboBox>
             <Label Content="Phòng ban:"/>
-            <TextBox x:Name="TxtDepartment"/>
+            <ComboBox x:Name="TxtDepartment" IsEditable="True">
+                <ComboBox.Items>
+                    <sys:String>IT</sys:String>
+                    <sys:String>HR</sys:String>
+                    <sys:String>Tài chính</sys:String>
+                    <sys:String>Marketing</sys:String>
+                    <sys:String>Kinh doanh</sys:String>
+                </ComboBox.Items>
+            </ComboBox>
             <Label Content="Cấp bậc:"/>
-            <TextBox x:Name="TxtRank"/>
+            <ComboBox x:Name="TxtRank" IsEditable="True">
+                <ComboBox.Items>
+                    <sys:String>Cấp 1</sys:String>
+                    <sys:String>Cấp 2</sys:String>
+                    <sys:String>Cấp 3</sys:String>
+                    <sys:String>Cấp 4</sys:String>
+                </ComboBox.Items>
+            </ComboBox>
             <Label Content="Người quản lý:"/>
-            <TextBox x:Name="TxtManager"/>
+            <ComboBox x:Name="TxtManager" IsEditable="True">
+                <ComboBox.Items>
+                    <sys:String>Nguyễn Văn A</sys:String>
+                    <sys:String>Trần Thị B</sys:String>
+                    <sys:String>Lê Văn C</sys:String>
+                    <sys:String>Phạm Thị D</sys:String>
+                </ComboBox.Items>
+            </ComboBox>
             <Label Content="Lịch làm việc:"/>
             <TextBox x:Name="TxtWorkSchedule" AcceptsReturn="True" Height="60"/>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,20,0,0">

@@ -1,42 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\QUYEN NGO\\Downloads\\New folder (5)\\quanlynhansu\\HRMANAGMENT2\\",
+  "WorkspaceRootPath": "E:\\JOB\\phuonganh\\quanlynhansu\\HRMANAGMENT2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{40C9B66B-C55D-4252-907D-14BF2F009885}|HRMANAGMENT2\\HRMANAGMENT2.csproj|c:\\users\\quyen ngo\\downloads\\new folder (5)\\quanlynhansu\\hrmanagment2\\hrmanagment2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{40C9B66B-C55D-4252-907D-14BF2F009885}|HRMANAGMENT2\\HRMANAGMENT2.csproj|e:\\job\\phuonganh\\quanlynhansu\\hrmanagment2\\hrmanagment2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{40C9B66B-C55D-4252-907D-14BF2F009885}|HRMANAGMENT2\\HRMANAGMENT2.csproj|solutionrelative:hrmanagment2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40C9B66B-C55D-4252-907D-14BF2F009885}|HRMANAGMENT2\\HRMANAGMENT2.csproj|c:\\users\\quyen ngo\\downloads\\new folder (5)\\quanlynhansu\\hrmanagment2\\hrmanagment2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{40C9B66B-C55D-4252-907D-14BF2F009885}|HRMANAGMENT2\\HRMANAGMENT2.csproj|solutionrelative:hrmanagment2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{40C9B66B-C55D-4252-907D-14BF2F009885}|HRMANAGMENT2\\HRMANAGMENT2.csproj|e:\\job\\phuonganh\\quanlynhansu\\hrmanagment2\\hrmanagment2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40C9B66B-C55D-4252-907D-14BF2F009885}|HRMANAGMENT2\\HRMANAGMENT2.csproj|solutionrelative:hrmanagment2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40C9B66B-C55D-4252-907D-14BF2F009885}|HRMANAGMENT2\\HRMANAGMENT2.csproj|c:\\users\\quyen ngo\\downloads\\new folder (5)\\quanlynhansu\\hrmanagment2\\hrmanagment2\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{40C9B66B-C55D-4252-907D-14BF2F009885}|HRMANAGMENT2\\HRMANAGMENT2.csproj|solutionrelative:hrmanagment2\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{40C9B66B-C55D-4252-907D-14BF2F009885}|HRMANAGMENT2\\HRMANAGMENT2.csproj|e:\\job\\phuonganh\\quanlynhansu\\hrmanagment2\\hrmanagment2\\views\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40C9B66B-C55D-4252-907D-14BF2F009885}|HRMANAGMENT2\\HRMANAGMENT2.csproj|solutionrelative:hrmanagment2\\views\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40C9B66B-C55D-4252-907D-14BF2F009885}|HRMANAGMENT2\\HRMANAGMENT2.csproj|c:\\users\\quyen ngo\\downloads\\new folder (5)\\quanlynhansu\\hrmanagment2\\hrmanagment2\\nuget.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{40C9B66B-C55D-4252-907D-14BF2F009885}|HRMANAGMENT2\\HRMANAGMENT2.csproj|solutionrelative:hrmanagment2\\nuget.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40C9B66B-C55D-4252-907D-14BF2F009885}|HRMANAGMENT2\\HRMANAGMENT2.csproj|c:\\users\\quyen ngo\\downloads\\new folder (5)\\quanlynhansu\\hrmanagment2\\hrmanagment2\\dialogs\\attendancedialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40C9B66B-C55D-4252-907D-14BF2F009885}|HRMANAGMENT2\\HRMANAGMENT2.csproj|solutionrelative:hrmanagment2\\dialogs\\attendancedialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40C9B66B-C55D-4252-907D-14BF2F009885}|HRMANAGMENT2\\HRMANAGMENT2.csproj|c:\\users\\quyen ngo\\downloads\\new folder (5)\\quanlynhansu\\hrmanagment2\\hrmanagment2\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40C9B66B-C55D-4252-907D-14BF2F009885}|HRMANAGMENT2\\HRMANAGMENT2.csproj|solutionrelative:hrmanagment2\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40C9B66B-C55D-4252-907D-14BF2F009885}|HRMANAGMENT2\\HRMANAGMENT2.csproj|c:\\users\\quyen ngo\\downloads\\new folder (5)\\quanlynhansu\\hrmanagment2\\hrmanagment2\\dialogs\\trainingdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40C9B66B-C55D-4252-907D-14BF2F009885}|HRMANAGMENT2\\HRMANAGMENT2.csproj|solutionrelative:hrmanagment2\\dialogs\\trainingdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40C9B66B-C55D-4252-907D-14BF2F009885}|HRMANAGMENT2\\HRMANAGMENT2.csproj|c:\\users\\quyen ngo\\downloads\\new folder (5)\\quanlynhansu\\hrmanagment2\\hrmanagment2\\dialogs\\salarydialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40C9B66B-C55D-4252-907D-14BF2F009885}|HRMANAGMENT2\\HRMANAGMENT2.csproj|solutionrelative:hrmanagment2\\dialogs\\salarydialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40C9B66B-C55D-4252-907D-14BF2F009885}|HRMANAGMENT2\\HRMANAGMENT2.csproj|c:\\users\\quyen ngo\\downloads\\new folder (5)\\quanlynhansu\\hrmanagment2\\hrmanagment2\\views\\employeepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{40C9B66B-C55D-4252-907D-14BF2F009885}|HRMANAGMENT2\\HRMANAGMENT2.csproj|solutionrelative:hrmanagment2\\views\\employeepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{40C9B66B-C55D-4252-907D-14BF2F009885}|HRMANAGMENT2\\HRMANAGMENT2.csproj|e:\\job\\phuonganh\\quanlynhansu\\hrmanagment2\\hrmanagment2\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{40C9B66B-C55D-4252-907D-14BF2F009885}|HRMANAGMENT2\\HRMANAGMENT2.csproj|solutionrelative:hrmanagment2\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,117 +26,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\QUYEN NGO\\Downloads\\New folder (5)\\quanlynhansu\\HRMANAGMENT2\\HRMANAGMENT2\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "HRMANAGMENT2\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\QUYEN NGO\\Downloads\\New folder (5)\\quanlynhansu\\HRMANAGMENT2\\HRMANAGMENT2\\MainWindow.xaml",
-              "RelativeToolTip": "HRMANAGMENT2\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-16T06:34:08.17Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\QUYEN NGO\\Downloads\\New folder (5)\\quanlynhansu\\HRMANAGMENT2\\HRMANAGMENT2\\appsettings.json",
-              "RelativeDocumentMoniker": "HRMANAGMENT2\\appsettings.json",
-              "ToolTip": "C:\\Users\\QUYEN NGO\\Downloads\\New folder (5)\\quanlynhansu\\HRMANAGMENT2\\HRMANAGMENT2\\appsettings.json",
-              "RelativeToolTip": "HRMANAGMENT2\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAB4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-16T06:23:02.557Z",
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\JOB\\phuonganh\\quanlynhansu\\HRMANAGMENT2\\HRMANAGMENT2\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "HRMANAGMENT2\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\JOB\\phuonganh\\quanlynhansu\\HRMANAGMENT2\\HRMANAGMENT2\\MainWindow.xaml.cs",
+              "RelativeToolTip": "HRMANAGMENT2\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAswE0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T02:55:46.968Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\QUYEN NGO\\Downloads\\New folder (5)\\quanlynhansu\\HRMANAGMENT2\\HRMANAGMENT2\\App.xaml",
-              "RelativeDocumentMoniker": "HRMANAGMENT2\\App.xaml",
-              "ToolTip": "C:\\Users\\QUYEN NGO\\Downloads\\New folder (5)\\quanlynhansu\\HRMANAGMENT2\\HRMANAGMENT2\\App.xaml",
-              "RelativeToolTip": "HRMANAGMENT2\\App.xaml",
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "E:\\JOB\\phuonganh\\quanlynhansu\\HRMANAGMENT2\\HRMANAGMENT2\\Views\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "HRMANAGMENT2\\Views\\LoginWindow.xaml.cs",
+              "ToolTip": "E:\\JOB\\phuonganh\\quanlynhansu\\HRMANAGMENT2\\HRMANAGMENT2\\Views\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "HRMANAGMENT2\\Views\\LoginWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T02:54:42.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\JOB\\phuonganh\\quanlynhansu\\HRMANAGMENT2\\HRMANAGMENT2\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "HRMANAGMENT2\\MainWindow.xaml",
+              "ToolTip": "E:\\JOB\\phuonganh\\quanlynhansu\\HRMANAGMENT2\\HRMANAGMENT2\\MainWindow.xaml",
+              "RelativeToolTip": "HRMANAGMENT2\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-16T06:22:58.643Z",
+              "WhenOpened": "2025-10-16T12:23:22.299Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "NuGet.config",
-              "DocumentMoniker": "C:\\Users\\QUYEN NGO\\Downloads\\New folder (5)\\quanlynhansu\\HRMANAGMENT2\\HRMANAGMENT2\\NuGet.config",
-              "RelativeDocumentMoniker": "HRMANAGMENT2\\NuGet.config",
-              "ToolTip": "C:\\Users\\QUYEN NGO\\Downloads\\New folder (5)\\quanlynhansu\\HRMANAGMENT2\\HRMANAGMENT2\\NuGet.config",
-              "RelativeToolTip": "HRMANAGMENT2\\NuGet.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-10-16T06:22:54.794Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AttendanceController.cs",
-              "DocumentMoniker": "C:\\Users\\QUYEN NGO\\Downloads\\New folder (5)\\quanlynhansu\\HRMANAGMENT2\\HRMANAGMENT2\\Controllers\\AttendanceController.cs",
-              "RelativeDocumentMoniker": "HRMANAGMENT2\\Controllers\\AttendanceController.cs",
-              "ToolTip": "C:\\Users\\QUYEN NGO\\Downloads\\New folder (5)\\quanlynhansu\\HRMANAGMENT2\\HRMANAGMENT2\\Controllers\\AttendanceController.cs",
-              "RelativeToolTip": "HRMANAGMENT2\\Controllers\\AttendanceController.cs",
-              "ViewState": "AgIAAFUAAAAAl5mZmZkbwFsAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T06:04:40.373Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AttendanceDialog.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\QUYEN NGO\\Downloads\\New folder (5)\\quanlynhansu\\HRMANAGMENT2\\HRMANAGMENT2\\Dialogs\\AttendanceDialog.xaml.cs",
-              "RelativeDocumentMoniker": "HRMANAGMENT2\\Dialogs\\AttendanceDialog.xaml.cs",
-              "ToolTip": "C:\\Users\\QUYEN NGO\\Downloads\\New folder (5)\\quanlynhansu\\HRMANAGMENT2\\HRMANAGMENT2\\Dialogs\\AttendanceDialog.xaml.cs",
-              "RelativeToolTip": "HRMANAGMENT2\\Dialogs\\AttendanceDialog.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBQAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T06:04:10.205Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TrainingDialog.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\QUYEN NGO\\Downloads\\New folder (5)\\quanlynhansu\\HRMANAGMENT2\\HRMANAGMENT2\\Dialogs\\TrainingDialog.xaml.cs",
-              "RelativeDocumentMoniker": "HRMANAGMENT2\\Dialogs\\TrainingDialog.xaml.cs",
-              "ToolTip": "C:\\Users\\QUYEN NGO\\Downloads\\New folder (5)\\quanlynhansu\\HRMANAGMENT2\\HRMANAGMENT2\\Dialogs\\TrainingDialog.xaml.cs",
-              "RelativeToolTip": "HRMANAGMENT2\\Dialogs\\TrainingDialog.xaml.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAjwBcAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T06:03:59.52Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SalaryDialog.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\QUYEN NGO\\Downloads\\New folder (5)\\quanlynhansu\\HRMANAGMENT2\\HRMANAGMENT2\\Dialogs\\SalaryDialog.xaml.cs",
-              "RelativeDocumentMoniker": "HRMANAGMENT2\\Dialogs\\SalaryDialog.xaml.cs",
-              "ToolTip": "C:\\Users\\QUYEN NGO\\Downloads\\New folder (5)\\quanlynhansu\\HRMANAGMENT2\\HRMANAGMENT2\\Dialogs\\SalaryDialog.xaml.cs",
-              "RelativeToolTip": "HRMANAGMENT2\\Dialogs\\SalaryDialog.xaml.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAQwF0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T06:03:12.087Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EmployeePage.xaml",
-              "DocumentMoniker": "C:\\Users\\QUYEN NGO\\Downloads\\New folder (5)\\quanlynhansu\\HRMANAGMENT2\\HRMANAGMENT2\\Views\\EmployeePage.xaml",
-              "RelativeDocumentMoniker": "HRMANAGMENT2\\Views\\EmployeePage.xaml",
-              "ToolTip": "C:\\Users\\QUYEN NGO\\Downloads\\New folder (5)\\quanlynhansu\\HRMANAGMENT2\\HRMANAGMENT2\\Views\\EmployeePage.xaml",
-              "RelativeToolTip": "HRMANAGMENT2\\Views\\EmployeePage.xaml",
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "E:\\JOB\\phuonganh\\quanlynhansu\\HRMANAGMENT2\\HRMANAGMENT2\\Views\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "HRMANAGMENT2\\Views\\LoginWindow.xaml",
+              "ToolTip": "E:\\JOB\\phuonganh\\quanlynhansu\\HRMANAGMENT2\\HRMANAGMENT2\\Views\\LoginWindow.xaml",
+              "RelativeToolTip": "HRMANAGMENT2\\Views\\LoginWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-16T05:58:22.847Z"
+              "WhenOpened": "2025-10-16T12:21:33.374Z",
+              "EditorCaption": ""
             }
           ]
         }

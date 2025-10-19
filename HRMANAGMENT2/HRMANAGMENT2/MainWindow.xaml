@@ -8,26 +8,41 @@
         <Style x:Key="NavButtonStyle" TargetType="Button">
             <Setter Property="Foreground" Value="#343A40"/>
             <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="Medium"/>
             <Setter Property="Background" Value="Transparent"/>
             <Setter Property="BorderThickness" Value="0"/>
             <Setter Property="Height" Value="48"/>
             <Setter Property="HorizontalContentAlignment" Value="Left"/>
-            <Setter Property="Padding" Value="20,0"/>
+            <Setter Property="Padding" Value="12,6,8,6"/>
+            <Setter Property="Cursor" Value="Hand"/>
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="Button">
-                        <Border Background="{TemplateBinding Background}" CornerRadius="8">
-                            <ContentPresenter HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                        <Border Background="{TemplateBinding Background}" 
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="8">
+                            <TextBlock Text="{TemplateBinding Content}"
+                                       Foreground="{TemplateBinding Foreground}"
+                                       FontSize="{TemplateBinding FontSize}"
+                                       FontWeight="{TemplateBinding FontWeight}"
+                                       HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                       VerticalAlignment="Center"
+                                       Margin="{TemplateBinding Padding}"/>
                         </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#E9ECEF"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Background" Value="#007BFF"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
             <Style.Triggers>
-                <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Background" Value="#E9ECEF"/>
-                </Trigger>
                 <Trigger Property="IsPressed" Value="True">
-                    <Setter Property="Background" Value="#007BFF"/>
                     <Setter Property="Foreground" Value="White"/>
                 </Trigger>
             </Style.Triggers>
@@ -53,20 +68,9 @@
                     <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="16,0" Grid.Column="0">
-                    <TextBlock Text="HR App" FontSize="20" FontWeight="Bold" Foreground="#007BFF"/>
+                    <TextBlock Text="Quản lý nhân sự" FontSize="20" FontWeight="Bold" Foreground="#007BFF"/>
                 </StackPanel>
-                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Grid.Column="2" Margin="0,0,16,0">
-                    <Button Content="🌙 Dark Mode" Click="ToggleDarkMode_Click" Height="32" Padding="12,0"
-                            Background="#007BFF" Foreground="White" BorderThickness="0">
-                        <Button.Template>
-                            <ControlTemplate>
-                                <Border Background="{TemplateBinding Background}" CornerRadius="6">
-                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                                </Border>
-                            </ControlTemplate>
-                        </Button.Template>
-                    </Button>
-                </StackPanel>
+                
             </Grid>
         </Border>
 
@@ -78,16 +82,64 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <!-- Hamburger Button -->
-                <Button x:Name="HamburgerBtn" Content="☰" Grid.Column="0" Click="HamburgerBtn_Click" Width="44" Height="44" 
-                        Background="Transparent" BorderThickness="0" FontSize="18" Margin="8" HorizontalAlignment="Left"/>
-
                 <!-- Nội dung Sidebar -->
-                <StackPanel Grid.Column="1">
-                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="12,8,12,8">
-                        <TextBlock Text="Danh mục" FontSize="16" FontWeight="SemiBold" Foreground="#495057"/>
-                    </StackPanel>
+                <StackPanel Grid.Column="1" Margin="0,16,0,0">
+                    <Grid HorizontalAlignment="Center" Margin="12,8,12,8" Height="32">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
 
+                        <TextBlock 
+                            Grid.Column="0" 
+                            Text="Danh mục" 
+                            FontSize="16" 
+                            FontWeight="SemiBold" 
+                            Foreground="#495057"
+                            VerticalAlignment="Center"
+                            Margin="0,0,16,0"/>
+
+                        <!-- Hamburger Button -->
+                        <Button 
+                            x:Name="HamburgerBtn" 
+                            Grid.Column="1"
+                            Content="☰" 
+                            Click="HamburgerBtn_Click" 
+                            Width="24" 
+                            Height="24" 
+                            Background="Transparent" 
+                            BorderThickness="0" 
+                            FontSize="16" 
+                            FontWeight="Bold"
+                            Foreground="#6c757d"
+                            Cursor="Hand"
+                            VerticalAlignment="Center">
+                            <Button.Template>
+                                <ControlTemplate TargetType="Button">
+                                    <Border 
+                                        Background="{TemplateBinding Background}"
+                                        BorderBrush="{TemplateBinding BorderBrush}"
+                                        BorderThickness="{TemplateBinding BorderThickness}"
+                                        CornerRadius="4">
+                                        <TextBlock Text="{TemplateBinding Content}"
+                                                   Foreground="{TemplateBinding Foreground}"
+                                                   FontSize="{TemplateBinding FontSize}"
+                                                   FontWeight="{TemplateBinding FontWeight}"
+                                                   HorizontalAlignment="Center"
+                                                   VerticalAlignment="Center"/>
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="#f8f9fa"/>
+                                        </Trigger>
+                                        <Trigger Property="IsPressed" Value="True">
+                                            <Setter Property="Background" Value="#e9ecef"/>
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Button.Template>
+                        </Button>
+                    </Grid>
                     <!-- Navigation Buttons -->
                     <StackPanel Margin="0,4,0,8">
                         <Button x:Name="BtnEmployees" Style="{StaticResource NavButtonStyle}" Content="👥 Nhân viên" Click="BtnEmployees_Click" Tag="👥 Nhân viên" Margin="10,4"/>

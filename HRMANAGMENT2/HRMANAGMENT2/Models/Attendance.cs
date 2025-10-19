@@ -21,9 +21,9 @@ namespace HRMANAGMENT2.Models
         public string Status { get; set; }
 
         [Range(0, 24, ErrorMessage = "Số giờ hành chính phải từ 0 đến 24")]
-        public decimal? AdminHours { get; set; }
+        public string? AdminHours { get; set; }
 
         [Range(0, 24, ErrorMessage = "Số giờ làm thêm phải từ 0 đến 24")]
-        public decimal? OvertimeHours { get; set; }
+        public string? OvertimeHours { get; set; }
     }
 }

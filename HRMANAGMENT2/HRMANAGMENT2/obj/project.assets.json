@@ -2886,11 +2886,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\QUYEN NGO\\Downloads\\New folder (5)\\quanlynhansu\\HRMANAGMENT2\\HRMANAGMENT2\\HRMANAGMENT2.csproj",
+      "projectUniqueName": "E:\\JOB\\phuonganh\\quanlynhansu\\HRMANAGMENT2\\HRMANAGMENT2\\HRMANAGMENT2.csproj",
       "projectName": "HRMANAGMENT2",
-      "projectPath": "C:\\Users\\QUYEN NGO\\Downloads\\New folder (5)\\quanlynhansu\\HRMANAGMENT2\\HRMANAGMENT2\\HRMANAGMENT2.csproj",
+      "projectPath": "E:\\JOB\\phuonganh\\quanlynhansu\\HRMANAGMENT2\\HRMANAGMENT2\\HRMANAGMENT2.csproj",
       "packagesPath": "C:\\Users\\QUYEN NGO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\QUYEN NGO\\Downloads\\New folder (5)\\quanlynhansu\\HRMANAGMENT2\\HRMANAGMENT2\\obj\\",
+      "outputPath": "E:\\JOB\\phuonganh\\quanlynhansu\\HRMANAGMENT2\\HRMANAGMENT2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

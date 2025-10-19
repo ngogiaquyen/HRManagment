@@ -75,8 +75,9 @@ namespace HRMANAGMENT2.Controllers
                         CheckInTime = row["CheckInTime"] != DBNull.Value ? (DateTime?)Convert.ToDateTime(row["CheckInTime"]) : null,
                         CheckOutTime = row["CheckOutTime"] != DBNull.Value ? (DateTime?)Convert.ToDateTime(row["CheckOutTime"]) : null,
                         Status = row["Status"].ToString(),
-                        AdminHours = row["AdminHours"] != DBNull.Value ? (decimal?)Convert.ToDecimal(row["AdminHours"]) : null,
-                        OvertimeHours = row["OvertimeHours"] != DBNull.Value ? (decimal?)Convert.ToDecimal(row["OvertimeHours"]) : null
+                        AdminHours = row["AdminHours"] != DBNull.Value ? row["AdminHours"].ToString() : null,
+                        OvertimeHours = row["OvertimeHours"] != DBNull.Value ? row["OvertimeHours"].ToString() : null,
+
                     };
                 }
                 return null;
